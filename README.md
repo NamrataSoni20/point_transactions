@@ -88,7 +88,7 @@ Points Transactions API is a Rails API application designed to process point tra
   ```json
   {
    "status": "success",
-   "processed_count": "number"
+   "processed_count": 2
   }
 
 
@@ -110,7 +110,7 @@ Points Transactions API is a Rails API application designed to process point tra
   ```json
   {
     "status": "success",
-    "transaction_id": "string"
+    "transaction_id": 1
   }
 
 ## Running Tests
