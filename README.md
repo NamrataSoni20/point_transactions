@@ -59,6 +59,7 @@ Points Transactions API is a Rails API application designed to process point tra
   Endpoint to create multiple transactions in bulk.
 
   **Request Body:**
+  ```json
   {
     "transactions": [
                 {
@@ -73,6 +74,7 @@ Points Transactions API is a Rails API application designed to process point tra
                 }
             ]        
   }
+  ```
 
 ### Single Record Creation
 
