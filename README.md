@@ -25,26 +25,28 @@ Points Transactions API is a Rails API application designed to process point tra
 ## Installation
 
 1. **Clone the repository:**
-
+   
+   ```bash
    git clone <repository-url>
    cd points_transactions
+   ```
 
-2. **Install dependencies:**
+3. **Install dependencies:**
 
    bundle install
 
-3. **Set up the database:**
+4. **Set up the database:**
 
    Modify `config/database.yml` with your PostgreSQL configuration, then run:
 
    rails db:create
    rails db:migrate
 
-4. Change the "mocked-api" URL in app/services/transaction_service.rb
+5. Change the "mocked-api" URL in app/services/transaction_service.rb
 
      Replace/Update the **SINGLE_TRANS_BASE_URL** and **BULK_TRANS_BASE_URL** with original URLs.
 
-5. **Run the server:**
+6. **Run the server:**
 
    rails server
 
