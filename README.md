@@ -33,22 +33,28 @@ Points Transactions API is a Rails API application designed to process point tra
 
 3. **Install dependencies:**
 
-   bundle install
+```bash
 
-4. **Set up the database:**
+   bundle install
+```
+
+5. **Set up the database:**
 
    Modify `config/database.yml` with your PostgreSQL configuration, then run:
-
+```bash
    rails db:create
    rails db:migrate
+```
 
-5. Change the "mocked-api" URL in app/services/transaction_service.rb
+6. Change the "mocked-api" URL in app/services/transaction_service.rb
 
      Replace/Update the **SINGLE_TRANS_BASE_URL** and **BULK_TRANS_BASE_URL** with original URLs.
 
-6. **Run the server:**
+7. **Run the server:**
+```bash
 
    rails server
+```
 
    Your API will be available at `http://localhost:3000`.
 
@@ -96,8 +102,9 @@ Points Transactions API is a Rails API application designed to process point tra
 ## Running Tests
 
 To run RSpec tests:
-
+```bash
 rspec
+```
 
 ## Contributing
 
