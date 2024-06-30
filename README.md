@@ -83,6 +83,14 @@ Points Transactions API is a Rails API application designed to process point tra
             ]        
   }
   ```
+ 
+  **Response Body:**
+  ```json
+  {
+   "status": "success",
+   "processed_count": "number"
+  }
+
 
 ### Single Record Creation
 
@@ -98,6 +106,12 @@ Points Transactions API is a Rails API application designed to process point tra
         "user_id": "12"
     }
   ```
+  **Response Body:**
+  ```json
+  {
+    "status": "success",
+    "transaction_id": "string"
+  }
 
 ## Running Tests
 
