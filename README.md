@@ -83,11 +83,13 @@ Points Transactions API is a Rails API application designed to process point tra
   Endpoint to create a single transaction.
 
   **Request Body:**
+  ```json
     {
         "transaction_id": "12",
         "points": "100",
         "user_id": "12"
-    } 
+    }
+  ```
 
 ## Running Tests
 
